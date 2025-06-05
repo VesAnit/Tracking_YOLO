@@ -1,10 +1,13 @@
-## Анализ видеопотока с YOLOv8
-Проект выполняет трекинг автомобилей в видеопотоке, подсчитывая пересечения горизонтальной линии и запретной зоны. 
-Используется модель YOLOv8 с трекером BoT-SORT. Результаты визуализируются и сохраняются в видео.
+##Video Stream Analysis with YOLOv8
+The project performs vehicle tracking in a video stream, counting cars that cross a horizontal line and enter a restricted zone.
+YOLOv8 is used for object detection, combined with the BoT-SORT tracker. The results are visualized and saved as a video.
 
-### Основные функции
-- Обнаружение автомобилей (класс 2).
-- Подсчёт машин, пересёкших горизонтальную линию.
-- Подсчёт машин, заехавших в зону выделенной полосы.
-- Визуализация рамок, центров объектов и статистики.
+##Key Features
+Detection of cars (class 2).
+
+Counting vehicles that cross a horizontal line.
+
+Counting vehicles that enter the restricted (dedicated lane) zone.
+
+Visualization of bounding boxes, object centers, and statistics.
 
